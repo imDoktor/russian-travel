@@ -1,0 +1,19 @@
+@import url(./__logo/header__logo.css);
+@import url(./__leng-link/header__leng-link.css);
+@import url(./__leng-link_volume_activ/header__leng-link_volume_activ.css);
+@import url(./__leng/header__leng.css);
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding-top: 16px;
+    }
+}

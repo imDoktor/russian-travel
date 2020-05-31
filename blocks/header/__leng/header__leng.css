@@ -1,0 +1,6 @@
+.header__leng {
+}
+
+.header__leng :last-of-type {
+    margin-right: 0;
+}
