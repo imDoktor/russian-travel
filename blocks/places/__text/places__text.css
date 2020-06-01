@@ -1,0 +1,14 @@
+.places__text {
+    grid-area: paragraph;
+}
+
+.places__text :first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .places__text {
+        margin-top: 32px;
+        padding: 0 16px;
+    }
+}

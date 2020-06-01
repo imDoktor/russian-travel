@@ -5,4 +5,9 @@
     line-height: 28px;
     color: #ffffff;
     margin-right: 18px;
+    transition: 0.3s;
+}
+
+.header__leng-link:hover {
+    opacity: 0.8;
 }
