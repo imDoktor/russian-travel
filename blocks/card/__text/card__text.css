@@ -1,13 +1,13 @@
-.places__text {
+.card__text {
     grid-area: text;
 }
 
-.places__text :first-child {
+.card__text :first-child {
     margin-top: 0;
 }
 
 @media screen and (max-width: 767px) {
-    .places__text {
+    .card__text {
         margin-top: 32px;
         padding: 0 16px;
     }

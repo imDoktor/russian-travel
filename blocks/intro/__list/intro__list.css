@@ -1,13 +1,9 @@
 .intro__list {
+    padding: 0;
     margin: 32px 0 0;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 18px;
+    list-style: none;
 }
 
-.intro__list-span {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
+.intro__list :first-child {
+    margin-top: 0;
 }
